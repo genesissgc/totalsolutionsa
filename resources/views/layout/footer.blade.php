@@ -1,4 +1,4 @@
-<footer class="footer" data-bgimage="{{ asset('public/images/bg/bg-image-1.jpg') }}" data-black-overlay="9">
+<footer class="footer" data-bgimage="{{ asset('public/images/bg/bg-image-1.png') }}" data-black-overlay="9" style="background-size: contain;">
 
     <!-- Footer Widgets -->
     <div class="footer-toparea tm-padding-section">

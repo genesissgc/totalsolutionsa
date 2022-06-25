@@ -54,12 +54,7 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="about-image">
-                        <img src="{{ asset('public/images/others/tsa_4.jpg') }}" alt="about image">
-                        <div class="tm-videobutton">
-                            <a href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
-                                <span><i class="fas fa-play"></i></span>
-                            </a>
-                        </div>
+                        <img src="{{ asset('public/images/others/quality-policy.jpg') }}" alt="quality policy">
                     </div>
                 </div>
             </div>
@@ -84,7 +79,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeInUp">
                     <div class="tm-service2 text-center">
                         <span class="tm-service2-icon">
-                            <i class="flaticon-idea"></i>
+                            <img src="{{ asset('public/images/others/pump.png') }}" />
                         </span>
                         <h5><a href="service-details.html">Pumps</a></h5>
                         <p>Every industry today requires a pump somewhere in its operation. From food processing to oil wells, we provide solutions for all.</p>
@@ -96,7 +91,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeInUp">
                     <div class="tm-service2 text-center">
                         <span class="tm-service2-icon">
-                            <i class="flaticon-options"></i>
+                            <img src="{{ asset('public/images/others/pipe.png') }}" />
                         </span>
                         <h5><a href="service-details.html">Ductile Iron Pipes</a></h5>
                         <p>Ductile Iron is the most preferred pipe material for water supply and pressure sewage application.</p>
@@ -108,7 +103,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeInUp">
                     <div class="tm-service2 text-center">
                         <span class="tm-service2-icon">
-                            <i class="flaticon-leadership"></i>
+                            <img src="{{ asset('public/images/others/skyline.png') }}" />
                         </span>
                         <h5><a href="service-details.html">Construction Chemical Solutions</a></h5>
                         <p>Construction Chemical solutions offers advanced emulsion application for the construction, maintenance, repair and renovation of structures.</p>
@@ -126,7 +121,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeInUp">
                     <div class="tm-service2 text-center">
                         <span class="tm-service2-icon">
-                            <i class="flaticon-password"></i>
+                            <img src="{{ asset('public/images/others/helmet.png') }}" />
                         </span>
                         <h5><a href="service-details.html">Safety Tools</a></h5>
                         <p>The Company believes in the top most priority of safety protocols and its applications. Thus providing complete safety tools product range for the construction industry.</p>
@@ -152,34 +147,9 @@
 
                 <div class="col-lg-6">
                     <div class="tm-testimonial2-videoslider">
-
                         <div class="tm-testimonial2-video">
-                            <img src="{{ asset('public/images/testimonial/testimonial-fullimage-1.jpg') }}" alt="testimonial author image">
-                            <div class="tm-videobutton">
-                                <a href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
-                                    <span><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
+                            <img src="{{ asset('public/images/testimonial/quote.jpg') }}" alt="testimonial author image">
                         </div>
-
-                        <div class="tm-testimonial2-video">
-                            <img src="{{ asset('public/images/testimonial/testimonial-fullimage-2.jpg') }}" alt="testimonial author image">
-                            <div class="tm-videobutton">
-                                <a href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
-                                    <span><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="tm-testimonial2-video">
-                            <img src="{{ asset('public/images/testimonial/testimonial-fullimage-3.jpg') }}" alt="testimonial author image">
-                            <div class="tm-videobutton">
-                                <a href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
-                                    <span><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
@@ -199,32 +169,6 @@
                             <i class="fas fa-quote-left"></i>
                         </div>
 
-                        <div class="tm-testimonial2-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-                                ncididunt ametfh consectetur dolore magna aliqua.</p>
-                            <div class="tm-testimonial2-author">
-                                <div class="tm-testimonial2-authorimage">
-                                    <img src="{{ asset('public/images/testimonial/testimonial-image-2.png') }}" alt="author image">
-                                </div>
-                                <h5>Nancy Wise</h5>
-                                <p>Web Developer</p>
-                            </div>
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-
-                        <div class="tm-testimonial2-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-                                ncididunt ametfh consectetur dolore magna aliqua.</p>
-                            <div class="tm-testimonial2-author">
-                                <div class="tm-testimonial2-authorimage">
-                                    <img src="{{ asset('public/images/testimonial/testimonial-image-3.png') }}" alt="author image">
-                                </div>
-                                <h5>Nancy Wise</h5>
-                                <p>Web Developer</p>
-                            </div>
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-
                     </div>
                 </div>
 
@@ -239,9 +183,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <div class="tm-section-title text-center">
-                        <h2>Latest Blog Post</h2>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
+                        <h2>Area of Expertise</h2>
                     </div>
                 </div>
             </div>
@@ -252,27 +194,17 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-1.jpg') }}" alt="blog image">
+                        <img src="{{ asset('public/images/blog/blog-image-1.png') }}" alt="blog image">
                     </div>
                     <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">A special day at the new office</a></h4>
-                        <div class="tm-blog-meta">
-                            <span>By <a href="blog.html">Keely</a></span>
-                            <span>Tuesday, Sep 26, 2018</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
-                        <div class="tm-blog-contentbottom">
-                            <a href="blog-details.html" class="tm-readmore">Read more <i class="fas fa-chevron-right"></i></a>
-                            <a href="blog-details.html">Comment 02</a>
-                        </div>
+                        <h4><a href="blog-details.html">Grundfos</a></h4>
+                        <p>Every day, our energy-efficient pumps provide household comfort, move water, wastewater and industrial liquids and help water farmers’ crops all over the world.</p>
                     </div>
                     <div class="tm-blog-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://twitter.com/grundfos?lang=en"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/grundfos"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.grundfos.com/sa"><i class="fas fa-globe"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -283,27 +215,17 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-2.jpg') }}" alt="blog image">
+                        <img src="{{ asset('public/images/blog/blog-image-2.png') }}" alt="blog image">
                     </div>
                     <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">A special day at the new office</a></h4>
-                        <div class="tm-blog-meta">
-                            <span>By <a href="blog.html">Keely</a></span>
-                            <span>Tuesday, Sep 26, 2018</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
-                        <div class="tm-blog-contentbottom">
-                            <a href="blog-details.html" class="tm-readmore">Read more <i class="fas fa-chevron-right"></i></a>
-                            <a href="blog-details.html">Comment 02</a>
-                        </div>
+                        <h4><a href="blog-details.html">Master Builders Solutions</a></h4>
+                        <p>Master Builders Solutions is MBCC Group´s brand of advanced chemical solutions for construction.</p>
                     </div>
                     <div class="tm-blog-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://twitter.com/mbs_global?lang=en"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://de.linkedin.com/company/master-builders-solutions-"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.master-builders-solutions.com/en-sa"><i class="fas fa-globe"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -314,27 +236,17 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-3.jpg') }}" alt="blog image">
+                        <img src="{{ asset('public/images/blog/blog-image-3.png') }}" alt="blog image">
                     </div>
                     <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">A special day at the new office</a></h4>
-                        <div class="tm-blog-meta">
-                            <span>By <a href="blog.html">Keely</a></span>
-                            <span>Tuesday, Sep 26, 2018</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
-                        <div class="tm-blog-contentbottom">
-                            <a href="blog-details.html" class="tm-readmore">Read more <i class="fas fa-chevron-right"></i></a>
-                            <a href="blog-details.html">Comment 02</a>
-                        </div>
+                        <h4><a href="blog-details.html">Ebara</a></h4>
+                        <p>Ebara Corporation is publicly traded company based in Tokyo, Japan. It designs, manufactures, and maintains the operation of infrastructure and industrial machinery</p>
                     </div>
                     <div class="tm-blog-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://mobile.twitter.com/ebara_sa"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/ebara-corporation-"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.ebara.co.jp/en/"><i class="fas fa-globe"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -345,27 +257,17 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-4.jpg') }}" alt="blog image">
+                        <img src="{{ asset('public/images/blog/blog-image-4.png') }}" alt="blog image">
                     </div>
                     <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">A special day at the new office</a></h4>
-                        <div class="tm-blog-meta">
-                            <span>By <a href="blog.html">Keely</a></span>
-                            <span>Tuesday, Sep 26, 2018</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
-                        <div class="tm-blog-contentbottom">
-                            <a href="blog-details.html" class="tm-readmore">Read more <i class="fas fa-chevron-right"></i></a>
-                            <a href="blog-details.html">Comment 02</a>
-                        </div>
+                        <h4><a href="blog-details.html">Rashmi Group</a></h4>
+                        <p>Rashmi Group is one of the fastest growing Business Conglomerates in the eastern region of India, pioneer in manufacturing of integrated Iron & Steel Products, Cement, Power and Ferro Alloys & Mining.</p>
                     </div>
                     <div class="tm-blog-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://twitter.com/rashmigroup?lang=en"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://in.linkedin.com/company/rashmi-group"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.rashmigroup.com/"><i class="fas fa-globe"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -376,58 +278,16 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-5.jpg') }}" alt="blog image">
+                        <img src="{{ asset('public/images/blog/blog-image-5.png') }}" alt="blog image">
                     </div>
                     <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">A special day at the new office</a></h4>
-                        <div class="tm-blog-meta">
-                            <span>By <a href="blog.html">Keely</a></span>
-                            <span>Tuesday, Sep 26, 2018</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
-                        <div class="tm-blog-contentbottom">
-                            <a href="blog-details.html" class="tm-readmore">Read more <i class="fas fa-chevron-right"></i></a>
-                            <a href="blog-details.html">Comment 02</a>
-                        </div>
+                        <h4><a href="blog-details.html">Bosean</a></h4>
+                        <p>Bosean has a wide range of products, such as, portable gas detectors, 4-in-1 gas detectors, toxic gas detectors, CO gas detectors, combustible gas detectors, gas alarm, gas detector for mine use.</p>
                     </div>
                     <div class="tm-blog-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--// Single Blog -->
-
-            <!-- Single Blog -->
-            <div class="col">
-                <div class="tm-blog">
-                    <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-6.jpg') }}" alt="blog image">
-                    </div>
-                    <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">A special day at the new office</a></h4>
-                        <div class="tm-blog-meta">
-                            <span>By <a href="blog.html">Keely</a></span>
-                            <span>Tuesday, Sep 26, 2018</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius illum vocent mediocritatem
-                            an cule dicta iriure at phaedrum. </p>
-                        <div class="tm-blog-contentbottom">
-                            <a href="blog-details.html" class="tm-readmore">Read more <i class="fas fa-chevron-right"></i></a>
-                            <a href="blog-details.html">Comment 02</a>
-                        </div>
-                    </div>
-                    <div class="tm-blog-social">
-                        <ul>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/henan-bosean-electronic-technology-company"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.bosean.net/"><i class="fas fa-globe"></i></a></li>
                         </ul>
                     </div>
                 </div>
