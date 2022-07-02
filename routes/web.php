@@ -33,7 +33,11 @@ Route::get('vision-and-mission', function () {
 Route::prefix('brands')->group(function () {
     Route::get('/grundfos', function () {
         return view('brands.grundfos');
-    });
+    })->name('brands.grundfos');
+
+    Route::get('/master-builders', function () {
+        return view('brands.master-builders');
+    })->name('brands.master-builders');
 });
 
 // Products

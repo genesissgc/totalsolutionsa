@@ -182,8 +182,8 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <a href="#">
-                            <img src="{{ asset('public/images/blog/product_1.jpg') }}" alt="blog image">
+                        <a href="{{ route('brands.grundfos') }}">
+                            <img src="{{ asset('public/images/blog/product_1.jpg') }}" alt="grundfos">
                         </a>
                     </div>
                 </div>
@@ -194,8 +194,8 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <a href="#">
-                            <img src="{{ asset('public/images/blog/product_2.jpg') }}" alt="blog image">
+                        <a href="{{ route('brands.master-builders') }}">
+                            <img src="{{ asset('public/images/blog/product_2.jpg') }}" alt="master-builders">
                         </a>
                     </div>
                 </div>
