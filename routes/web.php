@@ -38,6 +38,10 @@ Route::prefix('brands')->group(function () {
     Route::get('/master-builders', function () {
         return view('brands.master-builders');
     })->name('brands.master-builders');
+
+    Route::get('/ebara', function () {
+        return view('brands.ebara');
+    })->name('brands.ebara');
 });
 
 // Products

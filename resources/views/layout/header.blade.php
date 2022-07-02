@@ -48,7 +48,7 @@
                             <ul>
                                 <li><a href="{{ route('brands.grundfos') }}"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/grundfos.png') }}" /></a></li>
                                 <li><a href="{{ route('brands.master-builders') }}"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/master_builders.jpeg') }}" /></a></li>
-                                <li><a href="javascript:void(0)"><img style="width: 25%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/ebara.png') }}" /></a></li>
+                                <li><a href="{{ route('brands.ebara') }}"><img style="width: 25%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/ebara.png') }}" /></a></li>
                                 <li><a href="javascript:void(0)"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/rashmi_group.png') }}" /></a></li>
                                 <li><a href="javascript:void(0)"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/bosean.png') }}" /></a></li>
                                 <li><a href="javascript:void(0)"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/doowin.png') }}" /></a></li>
