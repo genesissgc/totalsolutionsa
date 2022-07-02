@@ -7,9 +7,9 @@
 
     <!-- Heroslider Slider -->
     <div class="heroslider-slider tm-slider-dots tm-slider-dots-left">
-        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/master_builder_1.jpg') }}"></div>
-        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/master_builder_2.jpg') }}"></div>
-        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/master_builder_3.jpg') }}"></div>
+        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-01.jpg') }}"></div>
+        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-02.jpg') }}"></div>
+        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-02.jpg') }}"></div>
     </div>
     <!--// Heroslider Slider -->
 
@@ -155,23 +155,11 @@
 
                 <div class="col-lg-6">
                     <div class="tm-testimonial2-contentslider tm-slider-dots">
-
                         <div class="tm-testimonial2-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-                                ncididunt ametfh consectetur dolore magna aliqua.</p>
-                            <div class="tm-testimonial2-author">
-                                <div class="tm-testimonial2-authorimage">
-                                    <img src="{{ asset('public/images/testimonial/testimonial-image-1.png') }}" alt="author image">
-                                </div>
-                                <h5>Talal Al Raie</h5>
-                                <p>Sales Manager</p>
-                            </div>
-                            <i class="fas fa-quote-left"></i>
+                            <p style="font-size:15px;">Total Solutions Company offers various Top notch product range for infrastructure and utilities sector. We offer several products like Ductile Iron pipes , Pumps, Constructions Chemicals , concrete admixtures, concrete protection, floor coatings, epoxy coatings , water proofing , sealants, safety instruments, breathing respirators and much more under one umbrella with best competitive price without compromising the quality.</p>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -194,18 +182,9 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-1.png') }}" alt="blog image">
-                    </div>
-                    <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">Grundfos</a></h4>
-                        <p>Every day, our energy-efficient pumps provide household comfort, move water, wastewater and industrial liquids and help water farmers’ crops all over the world.</p>
-                    </div>
-                    <div class="tm-blog-social">
-                        <ul>
-                            <li><a href="https://twitter.com/grundfos?lang=en"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/grundfos"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.grundfos.com/sa"><i class="fas fa-globe"></i></a></li>
-                        </ul>
+                        <a href="#">
+                            <img src="{{ asset('public/images/blog/product_1.jpg') }}" alt="blog image">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -215,18 +194,9 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-2.png') }}" alt="blog image">
-                    </div>
-                    <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">Master Builders Solutions</a></h4>
-                        <p>Master Builders Solutions is MBCC Group´s brand of advanced chemical solutions for construction.</p>
-                    </div>
-                    <div class="tm-blog-social">
-                        <ul>
-                            <li><a href="https://twitter.com/mbs_global?lang=en"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://de.linkedin.com/company/master-builders-solutions-"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.master-builders-solutions.com/en-sa"><i class="fas fa-globe"></i></a></li>
-                        </ul>
+                        <a href="#">
+                            <img src="{{ asset('public/images/blog/product_2.jpg') }}" alt="blog image">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -236,18 +206,9 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-3.png') }}" alt="blog image">
-                    </div>
-                    <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">Ebara</a></h4>
-                        <p>Ebara Corporation is publicly traded company based in Tokyo, Japan. It designs, manufactures, and maintains the operation of infrastructure and industrial machinery</p>
-                    </div>
-                    <div class="tm-blog-social">
-                        <ul>
-                            <li><a href="https://mobile.twitter.com/ebara_sa"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/ebara-corporation-"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.ebara.co.jp/en/"><i class="fas fa-globe"></i></a></li>
-                        </ul>
+                        <a href="#">
+                            <img src="{{ asset('public/images/blog/product_3.jpg') }}" alt="blog image">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -257,18 +218,9 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-4.png') }}" alt="blog image">
-                    </div>
-                    <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">Rashmi Group</a></h4>
-                        <p>Rashmi Group is one of the fastest growing Business Conglomerates in the eastern region of India, pioneer in manufacturing of integrated Iron & Steel Products, Cement, Power and Ferro Alloys & Mining.</p>
-                    </div>
-                    <div class="tm-blog-social">
-                        <ul>
-                            <li><a href="https://twitter.com/rashmigroup?lang=en"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://in.linkedin.com/company/rashmi-group"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.rashmigroup.com/"><i class="fas fa-globe"></i></a></li>
-                        </ul>
+                        <a href="#">
+                            <img src="{{ asset('public/images/blog/product_4.jpg') }}" alt="blog image">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -278,17 +230,9 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <img src="{{ asset('public/images/blog/blog-image-5.png') }}" alt="blog image">
-                    </div>
-                    <div class="tm-blog-content">
-                        <h4><a href="blog-details.html">Bosean</a></h4>
-                        <p>Bosean has a wide range of products, such as, portable gas detectors, 4-in-1 gas detectors, toxic gas detectors, CO gas detectors, combustible gas detectors, gas alarm, gas detector for mine use.</p>
-                    </div>
-                    <div class="tm-blog-social">
-                        <ul>
-                            <li><a href="https://www.linkedin.com/company/henan-bosean-electronic-technology-company"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.bosean.net/"><i class="fas fa-globe"></i></a></li>
-                        </ul>
+                        <a href="#">
+                            <img src="{{ asset('public/images/blog/product_5.jpg') }}" alt="blog image">
+                        </a>
                     </div>
                 </div>
             </div>

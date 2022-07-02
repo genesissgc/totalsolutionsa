@@ -17,10 +17,10 @@
                 <div class="col-md-5 col-sm-4 col-12">
                     <div class="header-topsocial">
                         <ul>
+                            <li><a href="https://www.linkedin.com/in/total-solutions-company-1a8537237/"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="javascript:void(0)"><i class="fab fa-skype"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="fab fa-pinterest-p"></i></a></li>
                         </ul>
                     </div>
                 </div>

@@ -11,7 +11,7 @@
                     <h2>Grundfos</h2>
                     <ul>
                         <li><a href="{{ url('/') }}">Home</a></li>
-                        <li>Grundfos Details</li>
+                        <li>Grundfos</li>
                     </ul>
                 </div>
             </div>
@@ -84,26 +84,17 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-7">
                             <div class="tm-portfoliodetails-description">
-                                <h3>Project Description</h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the
-                                    majority
-                                    have suffered alteration in some form, by injected humour, or randomised
-                                    words
-                                    which don't look even slightly believable. If you are going to use a
-                                    passage of
-                                    Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in
-                                    the
-                                    middle of text.</p>
-                                <p>Magnam repudiandae cumque ut exercitationem eos dolor consequatur voluptas
-                                    beatae. Voluptas dolore nobis delectus alias eum rem. Et minus sed.
-                                    Voluptas inventore ut inventore. Occaecati est et temporibus.</p>
+                                <h3>Grundfos</h3>
+                                <p>Grundfos is one of the dominant pump manufacturers in the world. We are the authorized supplier for Grundfos water pump. Supplies a wide range of pumps for various applications such as commercial air conditioning, commercial heating, hot water recirculation, water pressure boosting, water disinfection, wastewater, district cooling, district heating, groundwater intake, surface water intake, rainwater harvesting, Irrigation, solar water solutions, community water supply, flood control, wastewater transport, wastewater treatment, Irrigation groundwater supply, etc</p>
                                 <ul class="stylish-list">
-                                    <li><i class="far fa-check-square"></i>Irrigation and Agriculture</li>
+                                    <li><i class="far fa-check-square"></i>Water</li>
+                                    <li><i class="far fa-check-square"></i>Waste Water</li>
+                                    <li><i class="far fa-check-square"></i>Irrigation</li>
                                     <li><i class="far fa-check-square"></i>Pressure Boosting</li>
-                                    <li><i class="far fa-check-square"></i>WasteWater Experts</li>
-                                    <li><i class="far fa-check-square"></i>Water Treatment</li>
-                                    <li><i class="far fa-check-square"></i>Cooling Systems</li>
-                                    <li><i class="far fa-check-square"></i>Heating System</li>
+                                    <li><i class="far fa-check-square"></i>Transfer</li>
+                                    <li><i class="far fa-check-square"></i>HVAC</li>
+                                    <li><i class="far fa-check-square"></i>Dewatring</li>
+                                    <li><i class="far fa-check-square"></i>Dosing</li>
                                 </ul>
                             </div>
                         </div>

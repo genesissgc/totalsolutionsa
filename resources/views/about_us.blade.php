@@ -39,10 +39,8 @@
                         <ul class="stylish-list">
                             <li><i class="far fa-check-square"></i>Pumps</li>
                             <li><i class="far fa-check-square"></i>D.I. Pipes</li>
-                            <li><i class="far fa-check-square"></i>Breathing Respirator</li>
                             <li><i class="far fa-check-square"></i>Safety Instruments</li>
                             <li><i class="far fa-check-square"></i>Construction Chemicals</li>
-                            <li><i class="far fa-check-square"></i>Valves</li>
                         </ul>
                     </div>
                 </div>
