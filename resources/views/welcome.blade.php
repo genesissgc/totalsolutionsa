@@ -206,7 +206,7 @@
             <div class="col">
                 <div class="tm-blog">
                     <div class="tm-blog-image">
-                        <a href="#">
+                        <a href="{{ route('brands.ebara') }}">
                             <img src="{{ asset('public/images/blog/product_3.jpg') }}" alt="blog image">
                         </a>
                     </div>

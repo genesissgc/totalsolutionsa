@@ -3,7 +3,7 @@
 
 @section('content')
 <!-- Breadcrumb Area -->
-<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}">
+<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -30,13 +30,13 @@
             <div class="tm-portfoliodetails">
                 <div class="tm-portfoliodetails-image tm-portfoliodetails-gallery tm-slider-arrow">
                     <div class="tm-portfoliodetails-gallery-img">
-                        <a href="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}">
-                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}" alt="ebara">
+                        <a href="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
-                        <a href="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}">
-                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}" alt="ebara">
+                        <a href="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
