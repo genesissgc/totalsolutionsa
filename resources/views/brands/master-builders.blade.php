@@ -3,7 +3,7 @@
 
 @section('content')
 <!-- Breadcrumb Area -->
-<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{ asset('public/images/brands/master-builders/1.png') }}">
+<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{ asset('public/images/brands/master-builders/2.jpeg') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -30,13 +30,33 @@
             <div class="tm-portfoliodetails">
                 <div class="tm-portfoliodetails-image tm-portfoliodetails-gallery tm-slider-arrow">
                     <div class="tm-portfoliodetails-gallery-img">
-                        <a href="{{ asset('public/images/brands/master-builders/1.png') }}">
-                            <img src="{{ asset('public/images/brands/master-builders/1.png') }}" alt="master-builder">
+                        <a href="{{ asset('public/images/brands/master-builders/1.jpg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/master-builders/1.jpg') }}" alt="master-builder">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
-                        <a href="{{ asset('public/images/brands/master-builders/2.jpg') }}">
-                            <img src="{{ asset('public/images/brands/master-builders/2.jpg') }}" alt="master-builder">
+                        <a href="{{ asset('public/images/brands/master-builders/2.jpeg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/master-builders/2.jpeg') }}" alt="master-builder">
+                        </a>
+                    </div>
+                    <div class="tm-portfoliodetails-gallery-img">
+                        <a href="{{ asset('public/images/brands/master-builders/3.jpg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/master-builders/3.jpg') }}" alt="master-builder">
+                        </a>
+                    </div>
+                    <div class="tm-portfoliodetails-gallery-img">
+                        <a href="{{ asset('public/images/brands/master-builders/4.jpg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/master-builders/4.jpg') }}" alt="master-builder">
+                        </a>
+                    </div>
+                    <div class="tm-portfoliodetails-gallery-img">
+                        <a href="{{ asset('public/images/brands/master-builders/5.jpg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/master-builders/5.jpg') }}" alt="master-builder">
+                        </a>
+                    </div>
+                    <div class="tm-portfoliodetails-gallery-img">
+                        <a href="{{ asset('public/images/brands/master-builders/6.jpg') }}">
+                            <img class="page-slider" src="{{ asset('public/images/brands/master-builders/6.jpg') }}" alt="master-builder">
                         </a>
                     </div>
                 </div>

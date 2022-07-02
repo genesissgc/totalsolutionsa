@@ -31,53 +31,47 @@
                 <div class="tm-portfoliodetails-image tm-portfoliodetails-gallery tm-slider-arrow">
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/1_utility_range.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/1_utility_range.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/1_utility_range.jpg') }}" alt="grundfos">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/2_cr_poump_booster_set.png') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/2_cr_poump_booster_set.png') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/2_cr_poump_booster_set.png') }}" alt="grundfos">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/3_grundfos_set.png') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/3_grundfos_set.png') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/3_grundfos_set.png') }}" alt="grundfos">
                         </a>
                     </div>
-
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/4_end_suction_pump.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/4_end_suction_pump.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/4_end_suction_pump.jpg') }}" alt="grundfos">
                         </a>
                     </div>
-
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/5_vertical_multistage_centrifugal_pump.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/5_vertical_multistage_centrifugal_pump.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/5_vertical_multistage_centrifugal_pump.jpg') }}" alt="grundfos">
                         </a>
                     </div>
-
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/6_double_suction_horizontal_centrifugal_pump.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/6_double_suction_horizontal_centrifugal_pump.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/6_double_suction_horizontal_centrifugal_pump.jpg') }}" alt="grundfos">
                         </a>
                     </div>
-
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/7_different_size_cr_pumps.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/7_different_size_cr_pumps.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/7_different_size_cr_pumps.jpg') }}" alt="grundfos">
                         </a>
                     </div>
-
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/8_submersible_grinder_pump.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/8_submersible_grinder_pump.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/8_submersible_grinder_pump.jpg') }}" alt="grundfos">
                         </a>
                     </div>
-
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/grundfos/9_cr_pump.jpg') }}">
-                            <img src="{{ asset('public/images/brands/grundfos/9_cr_pump.jpg') }}" alt="portfolio details" style="height: 872px;">
+                            <img class="page-slider" src="{{ asset('public/images/brands/grundfos/9_cr_pump.jpg') }}" alt="grundfos">
                         </a>
                     </div>
                 </div>

@@ -31,37 +31,37 @@
                 <div class="tm-portfoliodetails-image tm-portfoliodetails-gallery tm-slider-arrow">
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}">
-                            <img src="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/ebara_pumps.jpg') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}">
-                            <img src="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/end_suction_pump.png') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/multi_stage _horizontal _pump.png') }}">
-                            <img src="{{ asset('public/images/brands/ebara/multi_stage _horizontal _pump.png') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/multi_stage _horizontal _pump.png') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/evms.png') }}">
-                            <img src="{{ asset('public/images/brands/ebara/evms.png') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/evms.png') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/booster_pump_unit_1.jpg') }}">
-                            <img src="{{ asset('public/images/brands/ebara/booster_pump_unit_1.jpg') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/booster_pump_unit_1.jpg') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/booster_pump_unit_2.jpg') }}">
-                            <img src="{{ asset('public/images/brands/ebara/booster_pump_unit_2.jpg') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/booster_pump_unit_2.jpg') }}" alt="ebara">
                         </a>
                     </div>
                     <div class="tm-portfoliodetails-gallery-img">
                         <a href="{{ asset('public/images/brands/ebara/submersible_pump.png') }}">
-                            <img src="{{ asset('public/images/brands/ebara/submersible_pump.png') }}" alt="ebara">
+                            <img class="page-slider" src="{{ asset('public/images/brands/ebara/submersible_pump.png') }}" alt="ebara">
                         </a>
                     </div>
                 </div>

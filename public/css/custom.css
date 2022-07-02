@@ -13,3 +13,7 @@
 .active{
     color: #1cb9c8 !important;
 }
+
+.page-slider{
+    height: 720px !important;
+}
