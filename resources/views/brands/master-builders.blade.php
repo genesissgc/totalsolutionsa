@@ -10,7 +10,8 @@
                 <div class="tm-breadcrumb">
                     <h2>Master Builders</h2>
                     <ul>
-                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
+                        <li>Brands</li>
                         <li>Master Builders</li>
                     </ul>
                 </div>
