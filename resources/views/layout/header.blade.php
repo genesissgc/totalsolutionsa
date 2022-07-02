@@ -34,16 +34,17 @@
         <div class="container">
             <div class="header-bottominner">
                 <div class="header-logo">
-                    <a href="{{ url('/') }}">
+                    <a href="{{ route('home') }}">
                         <img src="{{ asset('public/images/logo/Logo Total Solution SA.png') }}" alt="logo" style="width: 300px;">
                     </a>
                 </div>
                 <nav class="tm-navigation">
                     <ul>
-                        <li><a href="{{ url('/') }}">Home</a></li>
-                        <li><a href="{{ url('about-us') }}">About us</a></li>
-                        <li><a href="{{ url('vision-and-mission') }}">Vision and Mission</a></li>
-                        <li class="tm-navigation-dropdown"><a href="javascript:void(0)">Brands</a>
+                        <li><a class="{{ Request::segment(1) === null ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
+                        <li><a class="{{ Request::segment(1) === 'about-us' ? 'active' : '' }}" href="{{ route('about-us') }}">About us</a></li>
+                        <li><a class="{{ Request::segment(1) === 'vision-and-mission' ? 'active' : '' }}" href="{{ route('vision-and-mission') }}">Vision and Mission</a></li>
+                        <li class="tm-navigation-dropdown">
+                            <a  class="{{ Request::segment(1) === 'brands' ? 'active' : '' }}" href="javascript:void(0)">Brands</a>
                             <ul>
                                 <li><a href="{{ route('brands.grundfos') }}"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/grundfos.png') }}" /></a></li>
                                 <li><a href="{{ route('brands.master-builders') }}"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/master_builders.jpeg') }}" /></a></li>

@@ -17,17 +17,17 @@ use Illuminate\Support\Facades\Route;
 // Index
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 // About us
 Route::get('about-us', function () {
     return view('about_us');
-});
+})->name('about-us');
 
 // Vision and Mission
 Route::get('vision-and-mission', function () {
     return view('vision_and_mission');
-});
+})->name('vision-and-mission');
 
 // Brands
 Route::prefix('brands')->group(function () {
