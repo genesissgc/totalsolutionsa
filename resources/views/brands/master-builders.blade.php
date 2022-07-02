@@ -3,7 +3,7 @@
 
 @section('content')
 <!-- Breadcrumb Area -->
-<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{ asset('public/images/brands/grundfos/grundfos_header.png') }}">
+<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{ asset('public/images/brands/master-builders/1.png') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
