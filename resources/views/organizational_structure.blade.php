@@ -26,8 +26,8 @@
     <!-- Vision and Mission Area -->
     <div class="tm-section services-area tm-padding-section bg-white">
         <div class="container">
-            <a href="{{ asset('public/images/organizational_structure1.png') }}" target="_blank">
-                <img src="{{ asset('public/images/organizational_structure1.png') }}" />
+            <a href="{{ asset('public/images/organizational_structure.png') }}" target="_blank">
+                <img src="{{ asset('public/images/organizational_structure.png') }}" />
             </a>
         </div>
     </div>

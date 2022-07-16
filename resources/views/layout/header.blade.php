@@ -18,9 +18,7 @@
                     <div class="header-topsocial">
                         <ul>
                             <li><a href="https://www.linkedin.com/in/total-solutions-company-1a8537237/"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="fab fa-skype"></i></a></li>
+                            <li><a href="https://twitter.com/TotalSo17795543"><i class="fab fa-twitter"></i></a></li>
                         </ul>
                     </div>
                 </div>

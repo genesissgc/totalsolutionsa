@@ -9,7 +9,9 @@
     <div class="heroslider-slider tm-slider-dots tm-slider-dots-left">
         <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-01.jpg') }}"></div>
         <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-02.jpg') }}"></div>
-        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-02.jpg') }}"></div>
+        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-03.jpg') }}"></div>
+        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-04.jpg') }}"></div>
+        <div class="heroslider-singleslider" data-bgimage="{{ asset('public/images/heroslider/heroslider-image-05.jpg') }}"></div>
     </div>
     <!--// Heroslider Slider -->
 
