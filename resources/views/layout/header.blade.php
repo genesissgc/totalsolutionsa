@@ -7,8 +7,7 @@
                 <div class="col-md-7 col-sm-8 col-12">
                     <div class="header-topinfo">
                         <ul>
-                            <li><a href="tel://+966 11 201 0706"><i class="flaticon-phone-call"></i>
-                                    +966 11 201 0706</a></li>
+                            <li><a href="tel://+966 11 201 0706"><i class="flaticon-phone-call"></i>+966 11 201 0706</a></li>
                             <li><a href="mailto://&#105;&#110;&#102;&#111;&#64;&#116;&#111;&#116;&#97;&#108;&#115;&#111;&#108;&#117;&#116;&#105;&#111;&#110;&#115;&#97;&#46;&#99;&#111;&#109;"><i class="flaticon-envelope"></i>
                             &#105;&#110;&#102;&#111;&#64;&#116;&#111;&#116;&#97;&#108;&#115;&#111;&#108;&#117;&#116;&#105;&#111;&#110;&#115;&#97;&#46;&#99;&#111;&#109;</a></li>
                         </ul>
@@ -63,6 +62,15 @@
                         </li>
                         <li><a href="{{ url('organizational-structure') }}">Organizational</a></li>
                         <li><a href="{{ url('contact-us') }}">Contact Us</a></li>
+
+                        {{-- <li class="tm-navigation-dropdown">
+                            <a> {{ Config::get('languages')[App::getLocale()] }}</a>
+                            <ul>
+                                @foreach (Config::get('languages') as $lang => $language)
+                                    <li><a href="{{ route('lang.switch', $lang) }}">{{$language}}</a></li>
+                                @endforeach
+                            </ul>
+                        </li> --}}
                     </ul>
                 </nav>
             </div>

@@ -83,3 +83,6 @@ Route::get('contact-us', function () {
 
 // Send Email from Contact Form
 Route::get('send-email', [SendEmailController::class, 'index']);
+
+//Localization
+Route::get('lang/{lang}' , ['as' => 'lang.switch','uses' => 'App\Http\Controllers\LanguageController@switchLang']);
