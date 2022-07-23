@@ -18,11 +18,10 @@
     <!-- Google Font (font-family: 'Roboto', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('public/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/plugins.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/style.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('public/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ App::getLocale() == 'en' ? asset('public/css/bootstrap.min.css') : asset('public/rtl/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ App::getLocale() == 'en' ? asset('public/css/plugins.css') : asset('public/rtl/css/plugins.css') }}">
+    <link rel="stylesheet" href="{{ App::getLocale() == 'en' ? asset('public/css/style.css'): asset('public/rtl/css/style.css') }}">
+    <link rel="stylesheet" href="{{ App::getLocale() == 'en' ? asset('public/css/custom.css') : asset('public/rtl/css/custom.css') }}">
     @stack('after-styles')
 
     @if (trim($__env->yieldContent('page-styles')))
@@ -31,7 +30,6 @@
 </head>
 
 <body>
-
     <div class="tm-preloader">
         <span class="tm-preloader-box"></span>
         <button class="tm-button tm-button-sm tm-button-white">Cancel Preloader <b></b></button>
@@ -55,12 +53,12 @@
 
     @stack('before-scripts')
     <!-- Js Files -->
-    <script src="{{ asset('public/js/modernizr-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('public/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('public/js/popper.min.js') }}"></script>
-    <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('public/js/plugins.js') }}"></script>
-    <script src="{{ asset('public/js/main.js') }}"></script>
+    <script src="{{ App::getLocale() == 'en' ? asset('public/js/modernizr-3.6.0.min.js') : asset('public/rtl/js/modernizr-3.6.0.min.js') }}"></script>
+    <script src="{{ App::getLocale() == 'en' ? asset('public/js/jquery.min.js') : asset('public/rtl/js/jquery.min.js') }}"></script>
+    <script src="{{ App::getLocale() == 'en' ? asset('public/js/popper.min.js') : asset('public/rtl/js/jquery.min.js') }}"></script>
+    <script src="{{ App::getLocale() == 'en' ? asset('public/js/bootstrap.min.js') : asset('public/rtl/js/bootstrap.min.js') }}"></script>
+    <script src="{{ App::getLocale() == 'en' ? asset('public/js/plugins.js') : asset('public/rtl/js/plugins.js') }}"></script>
+    <script src="{{ App::getLocale() == 'en' ? asset('public/js/main.js') : asset('public/rtl/js/main.js') }}"></script>
     <!--// Js Files -->
     @stack('after-scripts')
 
