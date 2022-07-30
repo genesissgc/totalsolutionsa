@@ -37,16 +37,16 @@
                 </div>
                 <nav class="tm-navigation">
                     <ul>
-                        <li><a class="{{ Request::segment(1) === null ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
-                        <li><a class="{{ Request::segment(1) === 'about-us' ? 'active' : '' }}" href="{{ route('about-us') }}">About us</a></li>
+                        <li><a class="{{ Request::segment(1) === null ? 'active' : '' }}" href="{{ route('home') }}">{{ __('home') }}</a></li>
+                        <li><a class="{{ Request::segment(1) === 'about-us' ? 'active' : '' }}" href="{{ route('about-us') }}">{{ __('about_us') }}</a></li>
                         <li class="tm-navigation-dropdown">
-                            <a class="{{ Request::segment(1) === 'vision-and-mission' || Request::segment(1) === 'organizational-structure' ? 'active' : '' }}" href="{{ route('vision-and-mission') }}">Vision and Mission</a>
+                            <a class="{{ Request::segment(1) === 'vision-and-mission' || Request::segment(1) === 'organizational-structure' ? 'active' : '' }}" href="{{ route('vision-and-mission') }}">{{ __('vision-and-mission') }}</a>
                             <ul>
-                                <li><a href="{{ url('organizational-structure') }}">Organizational Structure</a></li>
+                                <li><a href="{{ url('organizational-structure') }}">{{ __('organizational-structure') }}</a></li>
                             </ul>
                         </li>
                         <li class="tm-navigation-dropdown">
-                            <a class="{{ Request::segment(1) === 'brands' ? 'active' : '' }}" href="javascript:void(0)">Brands</a>
+                            <a class="{{ Request::segment(1) === 'brands' ? 'active' : '' }}" href="javascript:void(0)">{{ __('brands') }}</a>
                             <ul>
                                 <li><a href="{{ route('brands.grundfos') }}"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/grundfos.png') }}" /></a></li>
                                 <li><a href="{{ route('brands.master-builders') }}"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/master_builders.jpeg') }}" /></a></li>
@@ -56,28 +56,23 @@
                                 <li><a href="javascript:void(0)"><img style="width: 50%;display: block;margin-left: auto;margin-right: auto;" src="{{ asset('public/images/brands/doowin.png') }}" /></a></li>
                             </ul>
                         </li>
-                        <li class="tm-navigation-dropdown"><a href="javascript:void(0)">Products</a>
+                        <li class="tm-navigation-dropdown"><a href="javascript:void(0)">{{ __('products') }}</a>
                             <ul>
-                                <li><a href="{{ url('products') }}">Pumps</a></li>
-                                <li><a href="javascript:void(0)">Construction Chemical Material</a></li>
-                                <li><a href="javascript:void(0)">Ductile Iron Pipes</a></li>
-                                <li><a href="javascript:void(0)">Safety Instruments</a></li>
-                                <li><a href="javascript:void(0)">Pipe Plugs/ Water Stopper</a></li>
+                                <li><a href="{{ url('products') }}">{{ __('pumps') }}</a></li>
+                                <li><a href="javascript:void(0)">{{ __('construction-chemical-solutions') }}</a></li>
+                                <li><a href="javascript:void(0)">{{ __('ductile-iron-pipes') }}</a></li>
+                                <li><a href="javascript:void(0)">{{ __('safety-tools') }}</a></li>
+                                <li><a href="javascript:void(0)">{{ __('pipe-plugs-water-stoppers') }}</a></li>
                             </ul>
                         </li>
                         {{-- <li><a href="{{ url('organizational-structure') }}">Organizational</a></li> --}}
-                        <li><a class="{{ Request::segment(1) === 'contact-us' ? 'active' : '' }}" href="{{ url('contact-us') }}">Contact Us</a></li>
+                        <li><a class="{{ Request::segment(1) === 'contact-us' ? 'active' : '' }}" href="{{ url('contact-us') }}">{{ __('contact-us') }}</a></li>
                         
                         <li class="tm-navigation-dropdown">
-                            
                             <a><img src="{{ App::getLocale() == 'en' ? asset('public/images/icons/en.png'): asset('public/images/icons/ar.png') }}"/></a>
                             <ul>
                                 @foreach (Config::get('languages') as $lang => $language)
-                                    <li>
-                                        <a href="{{ route('lang.switch', $lang) }}">
-                                            <img src="{{ $lang == 'en' ? asset('public/images/icons/en.png'): asset('public/images/icons/ar.png') }}"/>&nbsp;{{$language}}
-                                        </a>
-                                    </li>
+                                    <li><a href="{{ route('lang.switch', $lang) }}"> <img src="{{ $lang == 'en' ? asset('public/images/icons/en.png'): asset('public/images/icons/ar.png') }}"/>&nbsp;{{$language}}</a></li>
                                 @endforeach
                             </ul>
                         </li>

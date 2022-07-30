@@ -1,3 +1,15 @@
 {
-    "home": "Home"
+    "home": "Home",
+    "about_us": "About Us",
+    "vision-and-mission": "Vission And Mission",
+    "organizational-structure": "Organizational Structure",
+    "brands": "Brands",
+    "products": "Products",
+    "contact-us": "Contact Us",
+
+    "pumps": "Pumps",
+    "construction-chemical-solutions": "Construction Chemical Solutions",
+    "ductile-iron-pipes": "Ductile Iron Pipes",
+    "safety-tools": "Safety Tools",
+    "pipe-plugs-water-stoppers": "Pipe Plugs / Water Stoppers"
 }
